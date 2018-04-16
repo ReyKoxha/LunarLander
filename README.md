@@ -15,20 +15,14 @@ Above you can see the coordinate system used for Lunar Lander. On the X-Axis we 
 ## Build Info
 JDK 10
 
-CentOS 7 (RHEL 7.1)
-
-Eclipse Mars 4.5
+Eclipse
 
 ## Credits
-Atari for game idea
+Atari for their game idea
 
 http://flaticon.com for Icons
 
 https://flatuicolors.com for Colors
 
 https://compressor.io for Image Compression
-
-Hans Zimmer for Interstellar Music
-
-Borislav Slavov for Crysis 2 Music
 
