@@ -13,7 +13,7 @@ Before we start with the explanation of the game files, we first need to underst
 Above you can see the coordinate system used for Lunar Lander. On the X-Axis we set whether the Lander moves “right” or “left”, on the Y-Axis whether it moves “Up” or “Down”. This system is commonly used in 2D games, e.g. Doodle Jump or Angry Birds (just to name some popular mobile 2D games).
 
 ## Build Info
-JDK 1.8
+JDK 10
 
 CentOS 7 (RHEL 7.1)
 
