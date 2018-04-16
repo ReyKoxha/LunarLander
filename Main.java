@@ -4,12 +4,9 @@
  */
 package lunar_lander;
 
-import java.applet.Applet;
-import java.applet.AudioClip;
 import java.awt.Color;
 import java.awt.Graphics2D;
 import java.awt.Point;
-import java.awt.event.KeyEvent;
 import java.awt.image.BufferedImage;
 import java.io.IOException;
 import java.net.URL;
@@ -60,13 +57,6 @@ public class Main {
 
 	} catch (IOException ex) {
 	    Logger.getLogger(Main.class.getName()).log(Level.SEVERE, null, ex);
-	}
-	URL audioURL = getClass().getResource("/lunar_lander/resources/wav/main.wav");
-	AudioClip clip = Applet.newAudioClip(audioURL);
-	clip.play();
-
-	if (Control.keyboardKeyState(KeyEvent.VK_ENTER)) {
-	    clip.stop();
 	}
     }
 

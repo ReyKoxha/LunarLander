@@ -3,8 +3,6 @@
  */
 package lunar_lander;
 
-import java.applet.Applet;
-import java.applet.AudioClip;
 import java.awt.Graphics2D;
 import java.awt.Point;
 import java.awt.event.KeyEvent;
@@ -75,14 +73,6 @@ public class Framework extends Control {
 	} catch (IOException ex) {
 	    Logger.getLogger(Framework.class.getName()).log(Level.SEVERE, null,
 		    ex);
-	}
-
-	URL audioURL = getClass().getResource("/lunar_lander/resources/wav/menu.wav"); // Put into "try" to play constantly
-	AudioClip clip = Applet.newAudioClip(audioURL);
-	clip.play();
-
-	if (Control.keyboardKeyState(KeyEvent.VK_ENTER)) {
-	    clip.stop();
 	}
 
     }
